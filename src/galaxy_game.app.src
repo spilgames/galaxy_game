@@ -1,0 +1,11 @@
+{application, galaxy_game,
+ [
+  {description, "Galaxy game skeleton"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
