@@ -23,7 +23,10 @@ Considerations:
     Use only standard Erlang/OTP modules
     Any way of interacting with the simulator is valid as long as the output is clear: shell interface, http interface, GUI...
     Document the API of your application
-    The Erlang Army will be grateful if you valdate your simulator with some tests
-    Please refrain from asking friends / cooperating with other people while solving this task.
+
+Helpers:
+
+* `make` compiles your source code
+* `make test` runs the unit tests on it
 
 

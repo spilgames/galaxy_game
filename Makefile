@@ -4,16 +4,16 @@
 all: compile
 
 compile:
-	rebar compile xref
+	./rebar compile xref
 
 clean:
-	rebar clean
+	./rebar clean
 
 test:
-	rebar eunit
+	./rebar eunit
 
 docs: docsclean
-	rebar doc
+	./rebar doc
 
 docsclean:
 	rm -f doc/*.html doc/*.css doc/*.png doc/edoc-info
